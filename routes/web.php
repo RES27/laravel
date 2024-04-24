@@ -10,9 +10,9 @@ Route::get('/daftar-menu', function () {
     $jsonData = [
         'status' => 'success',
         'data' => [
-            ['id' => 1, 'name' => 'Bakso = Rp.12.000'],
-            ['id' => 2, 'name' => 'Mie Ayam = Rp.10.000'],
-            ['id' => 3, 'name' => 'Sate Kambing = Rp.20.000']
+            ['id' => 1, 'nama' => 'Bakso', 'harga' => 'Rp.12.000'],
+            ['id' => 2, 'name' => 'Mie Ayam', 'harga' => 'Rp.10.000'],
+            ['id' => 3, 'name' => 'Sate Kambing', 'harga' => 'Rp.20.000']
         ]
     ];
     return response()->json($jsonData);
